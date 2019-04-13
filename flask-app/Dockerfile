@@ -1,8 +1,9 @@
+
 # Instructions copied from - https://hub.docker.com/_/python/
-FROM python:2.7.12-onbuild
+FROM python:3-onbuild
 
 # tell the port number the container should expose
-EXPOSE 5000
+EXPOSE 8080
 
 # run the command
 CMD ["python", "./app.py"]
